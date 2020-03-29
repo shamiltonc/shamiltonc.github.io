@@ -10,7 +10,7 @@ I live in the St.Louis area with my fiance, my dog Jax, and my ferrets Gizmo and
 
 Check out my projects!
 
-[RESTful API: Code Review](./code-review.html)
-[RESTful API: Enhancement 1 (Software Engineering)](./enhancement-1.html)
-[RESTful API: Enhancement 2 (Algorithms and data types)](./enhancement-2.html)
-[RESTful API: Enhancement 3 (Databases)](./enhancement-3.html)
+[RESTful API: Code Review](./code-review.md)
+[RESTful API: Enhancement 1 (Software Engineering)](./enhancement-1.md)
+[RESTful API: Enhancement 2 (Algorithms and data types)](./enhancement-2.md)
+[RESTful API: Enhancement 3 (Databases)](./enhancement-3.md)
