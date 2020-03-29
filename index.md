@@ -10,4 +10,4 @@ I live in the St.Louis area with my fiance, my dog Jax, and my ferrets Gizmo and
 
 Check out my projects!
 
-[RESTful API: Code Review](./code-review.html)
+[RESTful API: Code Review](./code-review.md)
