@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<body>
+ 
+ <article>
+  <h1><a href="https://shamiltonc.github.io/">GO BACK</a></h1>
+  <header>
+    <h1>RESTful API: Enhancement 1</h1>
+  </header>
+   
+<p>Samantha Hamilton
+<p>SNHU CS499: Comp Sci Capstone
+<p>Milestone 3: Enhancement 2
+
+<p> For this milestone, I decided to enhance my RESTful service, which involved improving the advanced queries to retrieve and 
+modify data. After going back through my “FinalProject_REST” file, I realized that the RESTful functions only needed slight 
+modification. For instance, at line 22 I changed the URI from “/createStock/AA“ to “/createStock“. At line 31, I changed the 
+URI from “/getStock/AA“ to “/getStock“. At line 40, I changed “/updateStock/AA” to “/updateStock”. At line 54, I updated 
+“/deteStock/AA” to “/deteStock”. Doing so prevented 405 errors that I was receiving when attempting to query the service.</p>
+
+<p>After that, I went back through course material to find the proper way to query the RESTful service. Using a third terminal 
+in Codio, I used curl statements to query the service. Here are my curl statements:</p>
+
+<p><i>curl http"//localhost:8080/createStock?company="Corona"</i></p>
+<p><i>curl http"//localhost:8080/getStock?company="BearFinance"</i></p>
+<p><i>curl http"//localhost:8080/deleteStock?company="BearFinance"</i></p>
+
+<p><b>A.	Briefly describe the artifact. What is it? When was it created? </b></p>
+<p>The artifact is a RESTful API service that I created a few months ago for the course 
+CS-340 Client/Server Development. It was the course’s final project. It demonstrates administrative 
+skills with a MongoDB database by implementing CRUD methods to retrieve and update data, and finally 
+by turning each CRUD method into a RESTful service. </p>
+
+<p><b>B.	Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What 
+specific components of the artifact showcase your skills and abilities in software development? How was 
+the artifact improved? </b></p>
+<p>I selected this item because it met all requirements of our final project, which makes it a solid 
+demonstration of various aspects of software development and computer science for my ePortfolio. Because 
+of the improvements I must make, this project also shows proficiency in code review and enhancement.</p>
+
+<p><b>C.	Did you meet the course objectives you planned to meet with this enhancement in Module One? 
+Do you have any updates to your outcome-coverage plans? </b></p>
+<p>For this milestone, I focused on my RESTful service. I did meet the course objectives I planned to meet with this 
+enhancement. I focused on functionality this time around, whereas last week I focused on code structure and coding best practices. </p>
+
+<p><b>D.	Reflect on the process of enhancing and/or modifying the artifact. What did you learn as you were creating it and 
+improving it? What challenges did you face?</b></p>
+<p>I learned more about querying RESTful APIs than I knew before, and I realized once again that I was overthinking it. 
+The biggest challenge I faced was getting rid of the HTTP 400 and 404 errors when querying the service.</p>
+
+</article> 
+
+</body>
