@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<body>
+ 
+ <article>
+  <h1><a href="https://shamiltonc.github.io/">GO BACK</a></h1>
+  <header>
+    <h1>RESTful API: Enhancement 1</h1>
+  </header>
+   
+<p>Samantha Hamilton
+<p>SNHU CS499: Comp Sci Capstone
+<p>Milestone 4: Enhancement 3
+
+<p> For this enhancement, I focused on my RESTful API’s interaction with the Mongo database.</p>
+
+<p> I improved my queries to get better results. The new and improved queries use the proper HTTP 
+CRUD methods when querying the RESTful API and retrieving information from the database. To do this, 
+I had to recreate all my curl queries for the proper CRUD/HTTP method:</p>
+
+<p><b>POST:</b> <i>curl -d '{"company":Corona,"industry":"Medical"}' -H 'Content-Type: 
+application/json' http://localhost:8080/createStock/</i></p>
+
+<p><b>GET:</b> <i>curl -v http://localhost:8080/getStock?company=”Corona”</i></p>
+
+<p><b>UPDATE:</b> <i>Query: curl -d '{"company":"Corona", "Volume":"True"}' -H 
+'Content-Type: application/json' -X PUT http://localhost:8080/updateStock</i></p>
+
+<p><b>DELETE:</b> <i>curl -v -X DELETE http://localhost:8080/deleteStock?company=”Corona”</i></p>
+
+<p><b>A.	Briefly describe the artifact. What is it? When was it created? </b></p>
+<p>The artifact is a RESTful API service that I created a few months ago for the course 
+CS-340 Client/Server Development. It was the course’s final project. It demonstrates administrative 
+skills with a MongoDB database by implementing CRUD methods to retrieve and update data, and finally by 
+turning each CRUD method into a RESTful service. </p>
+
+<p><b>B.	Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What 
+specific components of the artifact showcase your skills and abilities in software development? How was 
+the artifact improved? </b></p>
+<p>I selected this item because it met all requirements of our final project, which makes it a solid 
+demonstration of various aspects of software development and computer science for my ePortfolio. Because 
+of the improvements I must make, this project also shows proficiency in code review and enhancement.</p>
+
+<p><b>C.	Did you meet the course objectives you planned to meet with this enhancement in Module One? Do you 
+have any updates to your outcome-coverage plans? </b></p>
+<p>Yes, I met the planned objectives with this enhancement as I outlined them in Module One. For this Milestone, 
+I worked on my API’s connection to the Mongo database and how I implemented pymongo to achieve functionality.</p>
+
+<p><b>D.	Reflect on the process of enhancing and/or modifying the artifact. What did you learn as you were 
+creating it and improving it? What challenges did you face?</b></p>
+<p>I learned a lot more about how the CURL queries work with a RESTful API, and how those queries much be structured 
+for the RESTful service to properly interact with the Mongo database. Creating the correct structure for the queries 
+was my biggest challenge.</p>
+
+</article> 
+
+</body>
